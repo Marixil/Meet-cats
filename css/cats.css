@@ -1,7 +1,8 @@
 body{
 	margin: 0;
-	font-family:Georgia, Gill Sans, Arial, sans-serif;
-	
+	font-size: 11.5px;
+	line-height: 25px;
+	font-family: Arial, sans-serif;
 }
 
 header{
@@ -24,8 +25,45 @@ header img{
 	border:10px solid #c5b5b5;
 
 }
+h1, h2{
+	font-family:Georgia, Gill Sans, sans-serif;
+}
 
 h2{
  font-size: 20px; 
- color: #734d40;"
+ color: #734d40;
+ margin: 40px 0 20px;
+}
+
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+main img{
+	max-width: 100%;
+}
+
+a{
+	color: #ac8687;
+}
+a:hover{
+	color: white;
+	background-color: gray;
+}
+footer{
+	background-color: #ac8687;
+	text-align: center;
+	font-size: 10px;
+	line-height: 15px;
+	color: white;
+	padding: 20px;
+	margin: 0;
+}
+
+p.caption{
+	color: darkgray;
+	font-style: italic;
+	margin-top:0;
 }
