@@ -1,12 +1,31 @@
 body{
-	background-color: midnightblue;
+	margin: 0;
+	font-family:Georgia, Gill Sans, Arial, sans-serif;
+	
 }
-h1{
-font-size: 30px; 
-color: salmon;
+
+header{
+	background-color: #ac8687;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+header h1{
+	font-size: 30px; 
+	color: #352321;
+	
+
+}
+
+header img{
+	border-radius: 200px;
+	height: 330px;
+	border:10px solid #c5b5b5;
+
 }
 
 h2{
  font-size: 20px; 
- color: lightsalmon;"
+ color: #734d40;"
 }
