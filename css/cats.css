@@ -23,6 +23,7 @@ header img{
 	border-radius: 350px;
 	height: 600px;
 	border:20px solid #c5b5b5;
+	max-width: 800px;
 
 }
 h1, h2{
