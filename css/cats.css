@@ -19,8 +19,8 @@ header h1{
 
 header img{
 	border-radius: 350px;
-	height: 600px;
-	max-width: 800px;
+	  max-width: 80%;
+  height:100%;
 	border:20px solid #c5b5b5;
 	 
 }
