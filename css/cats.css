@@ -20,11 +20,23 @@ header h1{
 
 header img{
 	border-radius: 350px;
-	  max-width: 80%;
-  height:100%;
-	border:20px solid #c5b5b5;
-	 
+	height: 600px;
+	border: 20px solid #c5b5b5;
 }
+
+@media only screen and (max-width: 768px) {
+ /* For mobile phones: */
+ header img{
+ 
+  max-width: 80%;
+  height:100%;
+ 
+ }
+ header h1{
+ 	line-height: 1.2;
+ }
+
+  }
 
 h1, h2{
 	font-family:Georgia, Gill Sans, sans-serif;
